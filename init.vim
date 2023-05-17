@@ -1,0 +1,13 @@
+set number
+set relativenumber
+set numberwidth=1
+set noswapfile
+set noshowmode
+set scrolloff=5
+set mouse=a
+set clipboard=unnamed
+set incsearch
+set ignorecase
+set smartcase
+set shiftwidth=4
+syntax enable
