@@ -1,5 +1,5 @@
 {
-  "editor.fontFamily": "'JetBrainsMono Nerd Font'",
+  "editor.fontFamily": "'Fira Mono'",
   "editor.minimap.enabled": false,
   "workbench.sideBar.location": "right",
   "workbench.colorTheme": "GitHub Dark",
@@ -28,5 +28,6 @@
     "diffEditor.ignoreTrimWhitespace": false,
     "editor.formatOnType": true,
     "editor.wordBasedSuggestions": false
-  }
+  },
+  "explorer.compactFolders": false
 }
