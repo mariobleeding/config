@@ -101,6 +101,21 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
+# Add new line
+prompt_end() {
+  if [[ -n $CURRENT_BG ]]; then
+      print -n "%{%k%F{$CURRENT_BG}%}$SEGMENT_SEPARATOR"
+  else
+      print -n "%{%k%}"
+  fi
+
+  print -n "%{%f%}"
+  CURRENT_BG='' 
+
+  #Adds the new line and ➜ as the start character.
+  printf "\n ➜";
+}
+
 alias e="exit"
 alias c="clear"
 alias v="nvim"
@@ -110,6 +125,7 @@ alias l="ls -la"
 alias tr="tree -L 1"
 alias trr="tree -L 2"
 alias files="xdg-open"
+alias we="curl wttr.in/Puebla"
 
 # fnm
 export PATH="/home/mario/.local/share/fnm:$PATH"
