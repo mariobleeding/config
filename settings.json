@@ -1,5 +1,5 @@
 {
-  "editor.fontFamily": "'Fira Mono'",
+  "editor.fontFamily": "'JetBrains Mono'",
   "editor.minimap.enabled": false,
   "workbench.sideBar.location": "right",
   "workbench.colorTheme": "GitHub Dark",
@@ -21,13 +21,15 @@
   "explorer.confirmDelete": false,
   "explorer.confirmDragAndDrop": false,
   "javascript.updateImportsOnFileMove.enabled": "always",
-  "workbench.iconTheme": "material-icon-theme",
+  "workbench.iconTheme": "vscode-icons",
   "[python]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode",
     "editor.formatOnSave": true,
     "diffEditor.ignoreTrimWhitespace": false,
     "editor.formatOnType": true,
     "editor.wordBasedSuggestions": false
   },
-  "explorer.compactFolders": false
+  "explorer.compactFolders": false,
+  "workbench.startupEditor": "none",
+  "git.enableSmartCommit": true,
+  "editor.fontSize": 15
 }
